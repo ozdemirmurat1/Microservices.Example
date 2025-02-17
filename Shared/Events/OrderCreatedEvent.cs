@@ -9,5 +9,7 @@ namespace Shared.Events
         public Guid BuyerId { get; set; }
 
         public List<OrderItemMessage> OrderItems { get; set; }
+
+        public decimal TotalPrice { get; set; }
     }
 }
